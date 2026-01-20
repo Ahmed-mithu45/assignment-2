@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Outfit', sans-serif;
-    background-color: #1E0B2B; /* Deep Purple Background */
+    background-color: #1E0B2B; /* Deep Purple Body Background */
     color: white;
     margin: 0;
 }
@@ -15,10 +15,10 @@ body {
 }
 
 .btn-primary {
-    background: linear-gradient(90deg, #FF00CC 0%, #FACC15 100%); /* Pink to Yellow */
+    background: linear-gradient(90deg, #FF00CC 0%, #FACC15 100%);
 }
 
-/* MOBILE MENU LOGIC */
+/* MOBILE MENU */
 #menu-toggle {
     display: none;
 }

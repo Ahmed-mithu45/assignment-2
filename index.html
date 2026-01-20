@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body class="overflow-x-hidden">
+<body class="overflow-x-hidden font-sans bg-[#1A0B2E] text-white">
 
     <div class="relative w-full bg-[url('./assets/hero-bg.jpg')] bg-cover bg-top bg-no-repeat">
         
@@ -41,7 +41,7 @@
             </div>
         </nav>
 
-        <input type="checkbox" id="menu-toggle">
+        <input type="checkbox" id="menu-toggle" class="hidden">
         <div id="mobile-menu" class="hidden lg:hidden bg-[#1E0B2B] absolute top-20 left-0 w-full z-40 border-t border-white/10 shadow-2xl p-6">
             <div class="flex flex-col gap-6 text-center text-lg">
                 <a href="#" class="text-gray-200 hover:text-white">About</a>
@@ -68,7 +68,7 @@
             </p>
 
             <div class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto px-6 mb-20">
-                <a href="#" class="btn-primary text-white px-8 py-3.5 rounded-full font-bold text-sm flex items-center justify-center gap-2 hover:scale-105 transition shadow-lg w-full sm:w-auto">
+                <a href="#" class="bg-gradient-to-r from-pink-500 to-yellow-500 text-white px-8 py-3.5 rounded-full font-bold text-sm flex items-center justify-center gap-2 hover:scale-105 transition shadow-lg w-full sm:w-auto">
                     <i class="fa-brands fa-spotify text-lg"></i> Listen On Spotify
                 </a>
                 <a href="#" class="border border-[#4ADE80] text-[#4ADE80] px-8 py-3.5 rounded-full font-bold text-sm flex items-center justify-center gap-2 hover:bg-[#4ADE80] hover:text-[#1E0B2B] transition w-full sm:w-auto">
@@ -110,6 +110,70 @@
             </div>
 
         </div>
-    </div>
+    </div> 
+
+    <section class="py-20 px-6 bg-[#230E3D]">
+        <div class="max-w-7xl mx-auto">
+            
+            <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center text-white">
+                Why Choose TechWave
+            </h2>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+
+                <div class="lg:col-span-1 lg:row-span-2 bg-[#2A0944] p-8 rounded-3xl border border-white/5 hover:border-pink-500/50 transition duration-300 flex flex-col items-start text-left">
+                    <div class="w-14 h-14 mb-6">
+                        <img src="./assets/headphone.png" class="w-full h-full object-contain">
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-white">Premium Audio Quality</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.
+                    </p>
+                </div>
+
+                <div class="lg:col-span-2 bg-[#2A0944] p-8 rounded-3xl border border-white/5 hover:border-pink-500/50 transition duration-300 flex flex-col items-start text-left">
+                    <div class="w-10 h-10 mb-4">
+                        <img src="./assets/device.png" class="w-full h-full object-contain">
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-white">Mobile Friendly</h3>
+                    <p class="text-gray-400 text-sm">
+                        Listen on the go with seamless mobile experience and offline downloads.
+                    </p>
+                </div>
+
+                <div class="lg:col-span-2 bg-[#2A0944] p-8 rounded-3xl border border-white/5 hover:border-pink-500/50 transition duration-300 flex flex-col items-start text-left">
+                    <div class="w-10 h-10 mb-4">
+                        <img src="./assets/location.png" class="w-full h-full object-contain">
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-white">Global Community</h3>
+                    <p class="text-gray-400 text-sm">
+                        Connect with tech enthusiasts from over 120 countries worldwide.
+                    </p>
+                </div>
+
+                <div class="lg:col-span-2 bg-[#2A0944] p-8 rounded-3xl border border-white/5 hover:border-pink-500/50 transition duration-300 flex flex-col items-start text-left">
+                    <div class="w-10 h-10 mb-4 flex items-center justify-start">
+                        <i class="fa-solid fa-bolt text-3xl text-transparent bg-clip-text bg-gradient-to-br from-yellow-400 to-pink-500"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-white">Exclusive Interviews</h3>
+                    <p class="text-gray-400 text-sm">
+                        Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and success strategies.
+                    </p>
+                </div>
+
+                <div class="lg:col-span-1 bg-[#2A0944] p-8 rounded-3xl border border-white/5 hover:border-pink-500/50 transition duration-300 flex flex-col items-start text-left">
+                    <div class="w-10 h-10 mb-4">
+                        <img src="./assets/resource.png" class="w-full h-full object-contain">
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-white">Rich Resources</h3>
+                    <p class="text-gray-400 text-sm">
+                        Access show notes, transcripts, and additional learning materials for every episode.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>
