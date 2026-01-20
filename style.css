@@ -2,12 +2,12 @@
 
 body {
     font-family: 'Outfit', sans-serif;
-    background-color: #1E0B2B; /* Deep Purple Body Background */
+    background-color: #1E0B2B; 
     color: white;
     margin: 0;
 }
 
-/* GRADIENTS */
+
 .text-gradient {
     background: linear-gradient(90deg, #FF00CC 0%, #333399 100%);
     -webkit-background-clip: text;
@@ -18,7 +18,7 @@ body {
     background: linear-gradient(90deg, #FF00CC 0%, #FACC15 100%);
 }
 
-/* MOBILE MENU */
+
 #menu-toggle {
     display: none;
 }
